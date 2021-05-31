@@ -84,7 +84,7 @@ class LoginForm extends React.Component {
                         onChangeText={text => this.setState({login: text})}
                         onSubmitEditing={this.validateAndSubmitForm}
                         autoCapitalize="none"
-                        autoCorrect="off"
+                        autoCorrect={"false"}
                         keyboardType={getEmailKeyboardType()}
                         placeholder={this.props.translate('loginForm.phoneOrEmail')}
                         placeholderTextColor={themeColors.placeholderText}
